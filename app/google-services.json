@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "595978135423",
+    "firebase_url": "https://sih-dratndcharge.firebaseio.com",
+    "project_id": "sih-dratndcharge",
+    "storage_bucket": "sih-dratndcharge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595978135423:android:4a6f0d3be7a3af52",
+        "android_client_info": {
+          "package_name": "com.example.trialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595978135423-ii8i94efdppjokkd5o56nun9sad3vans.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trialapp",
+            "certificate_hash": "ecb02a8b09e2bdc2bcfd8cf2390296060dba64fc"
+          }
+        },
+        {
+          "client_id": "595978135423-a755dg58oas07fg1eng16ok39jidu6gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSVVLJIxYuRw8UcOt9b6dEW6LNybSAW0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595978135423-a755dg58oas07fg1eng16ok39jidu6gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

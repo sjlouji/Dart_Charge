@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/roadimgbg"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+   <!-- android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"-->
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundbtn"
+        android:hint="Email"
+        android:textColorHint="@color/White1"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/White1"
+            android:id="@+id/emailid"
+            android:layout_margin="25dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundbtn"
+        android:textColorHint="@color/White1"
+        android:hint="Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/pswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/White1"
+            android:layout_margin="25dp"
+           />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbtn"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="Login"
+        android:textColor="@color/White1"
+        android:textAllCaps="false"/>
+</LinearLayout>
+<Button
+    android:id="@+id/newuserbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="New User? Sign up..."
+    android:layout_marginTop="50dp"
+    android:clickable="true"
+    android:textAllCaps="false"
+    android:textColor="@color/White1"
+    android:textSize="15dp"
+    android:background="@android:color/transparent"
+    android:contextClickable="true"/>
+</LinearLayout>

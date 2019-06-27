@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@drawable/roadimgbg"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:text="Quit"
+            android:textAllCaps="false"
+            android:textColor="@color/White1"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="Welcome, Jonathan!"
+            android:textColor="@color/White1"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="20">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundbtn"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Vehicles Registered\n___________________\n10"
+                    android:textColor="@color/White1"
+                    android:textSize="25dp"
+                    android:layout_margin="5dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/addvehiclebtn"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@drawable/roundbtn"
+                        android:text="Add Vehicle"
+                        android:textSize="15dp"
+                        android:textColor="@color/White1"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"/>
+                    <Button
+                        android:id="@+id/viewvehiclesbtn"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@drawable/roundbtn"
+                        android:layout_margin="5dp"
+                        android:text="View Vehicles"
+                        android:textColor="@color/White1"
+                        android:textAllCaps="false"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundbtn"
+                    android:text="Recent Activity\n_____________________\n1.Poror\n2.Vanagaram\n3.Kovalam\n4.Chengelpet"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/White1"
+                    android:textAllCaps="false"
+                    android:gravity="center"/>
+                <Button
+                    
+                    android:id="@+id/allactivitybtn"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/roundbtn"
+                    android:layout_margin="25dp"
+                    android:text="All Activity"
+                    android:textColor="@color/White1"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
