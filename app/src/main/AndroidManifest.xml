@@ -20,7 +20,7 @@
         <activity android:name=".VehicleDetails"
             android:theme="@style/AppTheme.NoActionBar"
             />
-        <activity android:name=".DashBoard"
+        <activity android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             />
         <activity android:name=".OwnerDetails"
@@ -30,7 +30,7 @@
             android:theme="@style/AppTheme.NoActionBar"
             />
         <activity
-            android:name=".MainActivity"
+            android:name=".DashBoard"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

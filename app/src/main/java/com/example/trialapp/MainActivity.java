@@ -70,6 +70,8 @@ dialog.dismiss();
                                         Toast.makeText(MainActivity.this, "No", Toast.LENGTH_LONG).show();
 
                                 } else {
+                                        Intent i =new Intent(MainActivity.this,DashBoard.class);
+                                        startActivity(i);
                                         Toast.makeText(MainActivity.this, "Yes", Toast.LENGTH_LONG).show();
 
                                     }
